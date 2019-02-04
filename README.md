@@ -31,7 +31,8 @@ Feel free to fork or make suggestions.
 
 # Commits should be frequent
 
-* Individual bug fixes and features need to be committed when they are completed. This keeps our commits better organized and aids in collaboration and merges.
+* Individual tasks, features, and bug fixes need to be committed when they are completed. This keeps our commits better organized and aids in collaboration and merges.
+	* Example: If you complete your work on a blog post page, commit that work before moving onto the contact page.
 * Never leave for the day with un-committed changes.
 * Perform a pull from the 'master' branch with every commit.
 * Perform a pull from master when starting work on the project to ensure you're up to date.
