@@ -1,6 +1,6 @@
 
 ## WIP Documentation
-v 0.1
+v 0.1.1
 
 This documentation is a work in progress. It is being researched, planned, and tested.
 
@@ -15,6 +15,12 @@ Feel free to fork or make suggestions.
 * `feature-XXX` - Individual branches for development. Branches from 'master' branch.
 * `bug-XXX` - Branches for hotfixes, developmental bug fixes, etc. Branches from 'master' or 'stable' branch. These are generally for fixing things on live sites.
 * `stable` - This branch gets incremented whenever the production environment gets updated. This allows us to work backwards through iterations to find bug sources.
+
+The stable branch should use [tags](https://help.github.com/articles/working-with-tags/) to keep track of project updates. 
+
+* `X.Y.Y` - X designates major upgrades to the site. Redesigns, refreshes, major site rollouts. 
+* `Y.X.Y` - X designates site updates that add new functionality but isn't considered "major" new functionality.
+* `Y.Y.X` - X designates bug fixes, content changes, and optimization tweaks.
 
 
 # Use Feature Branches
