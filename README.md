@@ -11,7 +11,7 @@ Feel free to fork or make suggestions.
 
 # Branch Structure
 
-* `development` - This is our base branch for development/testing. Feature and bug 
+* `development` - This is our base branch for development/testing. 
 * `feature-XXX` - Individual branches for development. Branches from 'development' branch.
 * `bug-XXX` - Branches for hotfixes, developmental bug fixes, etc. Branches from 'master' or 'development' branch. These branches are generally for testing and fixing things on live sites.
 * `master` - This branch gets incremented whenever the production environment gets updated. Use Release Tags for stable releases, this allows us to work backwards through iterations to find bug sources.
