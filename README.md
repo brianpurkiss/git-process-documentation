@@ -1,6 +1,6 @@
 
 ## WIP Documentation
-v 0.1.1
+v 0.2
 
 This documentation is a work in progress. It is being researched, planned, and tested.
 
@@ -11,12 +11,12 @@ Feel free to fork or make suggestions.
 
 # Branch Structure
 
-* `master` - This is our base branch for development.
-* `feature-XXX` - Individual branches for development. Branches from 'master' branch.
-* `bug-XXX` - Branches for hotfixes, developmental bug fixes, etc. Branches from 'master' or 'stable' branch. These are generally for fixing things on live sites.
-* `stable` - This branch gets incremented whenever the production environment gets updated. This allows us to work backwards through iterations to find bug sources.
+* `development` - This is our base branch for development/testing. Feature and bug 
+* `feature-XXX` - Individual branches for development. Branches from 'development' branch.
+* `bug-XXX` - Branches for hotfixes, developmental bug fixes, etc. Branches from 'master' or 'development' branch. These branches are generally for testing and fixing things on live sites.
+* `master` - This branch gets incremented whenever the production environment gets updated. Use Release Tags for stable releases, this allows us to work backwards through iterations to find bug sources.
 
-The stable branch should use [tags](https://help.github.com/articles/working-with-tags/) to keep track of project updates. 
+The master branch should use [tags](https://help.github.com/articles/working-with-tags/) to keep track of project updates. 
 
 * `X.Y.Y` - X designates major upgrades to the site. Redesigns, refreshes, major site rollouts. 
 * `Y.X.Y` - X designates site updates that add new functionality but isn't considered "major" new functionality.
@@ -57,3 +57,8 @@ The stable branch should use [tags](https://help.github.com/articles/working-wit
 	* Comments should not be done in a way it ends up on the end site.
 	* Example: In SASS and JS, use `//` so it gets compiled out.
 	* Example: In HTML/PHP, use PHP comments so it gets compiled out.
+
+
+# Working with WordPress
+
+When working on WordPress themes and plugins, use the [Github Updater plugin](https://github.com/afragen/github-updater/). Incrementing the theme version number in style.css allows for easy site updates with no downtime. 
